@@ -6,11 +6,6 @@ client
 4.Run command "npm run dev"
 5. Access the website on the url provided in the terminal.
         Server
-1.Create your email smtp password
-2.enter your email details in  "/server/.env" to configure with smtp server . 
-under these credentials :
-EMAIL_USERNAME=
-EMAIL_PASSWORD=
 3.Open new terminal.
 4. cd into the directory where the file is. e.g "cd/Downloads/FinancialPortfolio"
 5.cd into folder "/server" and run command "npm install"
