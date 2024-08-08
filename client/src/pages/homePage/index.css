@@ -1,0 +1,313 @@
+
+@media screen and (max-width: 600px){
+    .homePageWrapper{
+        width: 100%;
+        min-height: 100vh;
+        background-color: var(--bg-color);
+    
+    }
+    .homePageContentContainer{
+        margin-top: 80px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .welcomeHeader{
+        font-size:28px ;
+        line-height: 28px;
+        font-weight:400 ;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color: var(--text-color);
+    }
+    .welcomeHeaderContainer{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         gap:4px;
+    }
+    
+    .createNewButton{
+        align-self: flex-end;
+        width: 157px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right, #4B4BE3, #5691C8);
+        border-radius: 12px;
+        font-size:16px ;
+        line-height: 20px;
+        font-weight:700 ;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color: #FFFFFF;
+    }
+    .welcomeHeader span{
+        font-size:34px ;
+        line-height: 34px;
+        font-weight:900 ;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color: var(--text-color);
+    }
+    .investmentInstitutionsWrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .investmentInstitutions{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap:20px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .showModal{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+        backdrop-filter: blur(0.5px);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .homePageWrapper{
+        width: 100%;
+        min-height: 100vh;
+    background-color: var(--bg-color);
+    
+    }
+    .homePageContentContainer{
+        margin-top: 80px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .welcomeHeader{
+        font-size:34px ;
+        line-height: 34px;
+        font-weight:400 ;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color: var(--text-color);
+    }
+    .welcomeHeaderContainer{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .createNewButton{
+        width: 157px;
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right, #4B4BE3, #5691C8);
+        border-radius: 12px;
+        font-size:16px ;
+        line-height: 20px;
+        font-weight:700 ;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color: #FFFFFF;
+    }
+    .welcomeHeader span{
+        font-size:42px ;
+        line-height: 42px;
+        font-weight:900 ;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color: var(--text-color);
+    }
+    .investmentInstitutionsWrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .investmentInstitutions{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 95%;
+        gap:40px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .showModal{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+        backdrop-filter: blur(0.5px);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+    .homePageWrapper{
+        width: 100%;
+        min-height: 100vh;
+    background-color: var(--bg-color);
+    
+    }
+    .homePageContentContainer{
+        margin-top: 40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .welcomeHeader{
+        font-size:34px ;
+        line-height: 34px;
+        font-weight:400 ;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color: var(--text-color);
+    }
+    .welcomeHeaderContainer{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .createNewButton{
+        width: 177px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to right, #4B4BE3, #5691C8);
+        border-radius: 12px;
+        font-size:16px ;
+        line-height: 20px;
+        font-weight:700 ;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color: #FFFFFF;
+    }
+    .welcomeHeader span{
+        font-size:48px ;
+        line-height: 54px;
+        font-weight:900 ;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color: var(--text-color);
+    }
+    .investmentInstitutionsWrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .investmentInstitutions{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 95%;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .showModal{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+        backdrop-filter: blur(0.5px);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 10000;
+    }
+}
+@media screen and (min-width: 1440px){
+.homePageWrapper{
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+
+}
+.homePageContentContainer{
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.welcomeHeader{
+    font-size:42px ;
+    line-height: 52px;
+    font-weight:400 ;
+    font-family:Neue Haas Grotesk Display Pro ;
+    color: var(--text-color);
+}
+.welcomeHeaderContainer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.createNewButton{
+    width: 177px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #4B4BE3, #5691C8);
+    border-radius: 12px;
+    font-size:16px ;
+    line-height: 20px;
+    font-weight:700 ;
+    font-family:Neue Haas Grotesk Display Pro ;
+    color: #FFFFFF;
+}
+.welcomeHeader span{
+    font-size:52px ;
+    line-height: 62px;
+    font-weight:900 ;
+    font-family:Neue Haas Grotesk Display Pro ;
+    color: var(--text-color);
+}
+.investmentInstitutionsWrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.investmentInstitutions {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    max-width: 90%;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+  }
+  .showModal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    backdrop-filter: blur(0.5px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+}
+  
+}

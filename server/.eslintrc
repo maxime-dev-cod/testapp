@@ -1,0 +1,15 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "commonjs"
+ },
+ "rules": {
+    "prettier/prettier": "error",
+    "no-console": "error",
+    "semi": ["error", "never"],
+    "no-unused-vars": "error",
+    "single-quote": "error"
+ }
+}

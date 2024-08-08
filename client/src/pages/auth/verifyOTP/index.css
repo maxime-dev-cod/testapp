@@ -1,0 +1,473 @@
+@media screen and (max-width: 600px){
+    .OTPPage{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .verifyOTPCardWrapper{
+        width: 90%;
+        height:442px;
+         border-radius: 30px;
+         background-color: #FFFFFF;
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-between;
+    }
+    .verifyOTPContentWrapper{
+        display: flex;
+         flex-direction: column;
+         align-items: start;
+       margin-top: 30px;
+         width: 90%;
+         gap:20px;
+    }
+    .verifyOTPText{
+        display: flex;
+        flex-direction: column;
+        align-items: start;  
+        gap:8px;
+    }
+    .verifyOTPCardHeader{
+        font-size:20px ;
+        line-height:42px ;
+        font-weight:700 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #463F3C;
+    }
+    .verifyOTPCardSubHeader{
+        font-size:14px ;
+        line-height:28px ;
+        font-weight:400 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #463F3C;
+    }
+    .emailSentTo{
+        font-size:14px ;
+        line-height:28px ;
+        font-weight:600 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #463F3C; 
+    }
+    .enterOTPLabel{
+        font-size:16px ;
+        line-height:24px ;
+        font-weight:500 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #000000CC;    
+    }
+    .inputOTPSection{
+        display: flex;
+        gap:6px;
+    }
+    .inputOTPBox {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid #000000;
+        text-align: center; 
+    }
+    
+    .inputOTPBox input[type="text"] {
+        height: 100%;
+        width: 100%;
+        border: none;
+        background: transparent;
+        font-size: 32px; 
+        outline: none; 
+    }
+    
+    .verifySection{
+        width: 100%;
+        height: 30%;
+        gap:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .verifyButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width:90% ;
+        height:60px ;
+        cursor: pointer;
+        background: linear-gradient(to right, #4B4BE3, #5691C8);
+        font-size:18px ;
+        line-height:24px ;
+        font-weight:700 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #FFFFFF;  
+    }
+    .resendCodeText{
+        font-size:18px ;
+        line-height:24px ;
+        font-weight:400 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #000000CC; 
+    }
+    .resendCodeText span{
+        font-weight:700 ;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 900px){
+    .OTPPage{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .verifyOTPCardWrapper{
+        width: 550px;
+        height:610px;
+         border-radius: 30px;
+         background-color: #FFFFFF;
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-between;
+    }
+    .verifyOTPContentWrapper{
+        display: flex;
+         flex-direction: column;
+         align-items: start;
+       margin-top: 50px;
+         width: 90%;
+         gap:30px;
+    }
+    .verifyOTPText{
+        display: flex;
+        flex-direction: column;
+        align-items: start;  
+        gap:10px;
+    }
+    .verifyOTPCardHeader{
+        font-size:32px ;
+        line-height:42px ;
+        font-weight:700 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #463F3C;
+    }
+    .verifyOTPCardSubHeader{
+        font-size:18px ;
+        line-height:38px ;
+        font-weight:400 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #463F3C;
+    }
+    .emailSentTo{
+        font-size:18px ;
+        line-height:38px ;
+        font-weight:600 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #463F3C; 
+    }
+    .enterOTPLabel{
+        font-size:18px ;
+        line-height:24px ;
+        font-weight:500 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #000000CC;    
+    }
+    .inputOTPSection{
+        display: flex;
+        gap:10px;
+    }
+    .inputOTPBox {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        border: 1px solid #000000;
+        text-align: center; 
+    }
+    
+    .inputOTPBox input[type="text"] {
+        height: 100%;
+        width: 100%;
+        border: none;
+        background: transparent;
+        font-size: 32px; 
+        outline: none; 
+    }
+    
+    .verifySection{
+        width: 100%;
+        height: 20%;
+        gap:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .verifyButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width:70% ;
+        height:60px ;
+        cursor: pointer;
+        background: linear-gradient(to right, #4B4BE3, #5691C8);
+        font-size:18px ;
+        line-height:24px ;
+        font-weight:700 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #FFFFFF;  
+    }
+    .resendCodeText{
+        font-size:18px ;
+        line-height:24px ;
+        font-weight:400 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #000000CC; 
+    }
+    .resendCodeText span{
+        font-weight:700 ;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1440px){
+    .OTPPage{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .verifyOTPCardWrapper{
+        width: 570px;
+        height:610px;
+         border-radius: 30px;
+         background-color: #FFFFFF;
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-between;
+    }
+    .verifyOTPContentWrapper{
+        display: flex;
+         flex-direction: column;
+         align-items: start;
+       margin-top: 50px;
+         width: 90%;
+         gap:30px;
+    }
+    .verifyOTPText{
+        display: flex;
+        flex-direction: column;
+        align-items: start;  
+        gap:10px;
+    }
+    .verifyOTPCardHeader{
+        font-size:32px ;
+        line-height:42px ;
+        font-weight:700 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #463F3C;
+    }
+    .verifyOTPCardSubHeader{
+        font-size:18px ;
+        line-height:38px ;
+        font-weight:400 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #463F3C;
+    }
+    .emailSentTo{
+        font-size:18px ;
+        line-height:38px ;
+        font-weight:600 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #463F3C; 
+    }
+    .enterOTPLabel{
+        font-size:18px ;
+        line-height:24px ;
+        font-weight:500 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #000000CC;    
+    }
+    .inputOTPSection{
+        display: flex;
+        gap:10px;
+    }
+    .inputOTPBox {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        border: 1px solid #000000;
+        text-align: center; 
+    }
+    
+    .inputOTPBox input[type="text"] {
+        height: 100%;
+        width: 100%;
+        border: none;
+        background: transparent;
+        font-size: 32px; 
+        outline: none; 
+    }
+    
+    .verifySection{
+        width: 100%;
+        height: 20%;
+        gap:10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .verifyButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        width:70% ;
+        height:60px ;
+        cursor: pointer;
+        background: linear-gradient(to right, #4B4BE3, #5691C8);
+        font-size:18px ;
+        line-height:24px ;
+        font-weight:700 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #FFFFFF;  
+    }
+    .resendCodeText{
+        font-size:18px ;
+        line-height:24px ;
+        font-weight:400 ;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #000000CC; 
+    }
+    .resendCodeText span{
+        font-weight:700 ;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width: 1440px){
+    .OTPPage{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+.verifyOTPCardWrapper{
+    width: 570px;
+    height:610px;
+     border-radius: 30px;
+     background-color: #FFFFFF;
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+}
+.verifyOTPContentWrapper{
+    display: flex;
+     flex-direction: column;
+     align-items: start;
+   margin-top: 50px;
+     width: 90%;
+     gap:30px;
+}
+.verifyOTPText{
+    display: flex;
+    flex-direction: column;
+    align-items: start;  
+    gap:10px;
+}
+.verifyOTPCardHeader{
+    font-size:32px ;
+    line-height:42px ;
+    font-weight:700 ;
+    font-family: Neue Haas Grotesk Display Pro;
+    color: #463F3C;
+}
+.verifyOTPCardSubHeader{
+    font-size:18px ;
+    line-height:38px ;
+    font-weight:400 ;
+    font-family: Neue Haas Grotesk Display Pro;
+    color: #463F3C;
+}
+.emailSentTo{
+    font-size:18px ;
+    line-height:38px ;
+    font-weight:600 ;
+    font-family: Neue Haas Grotesk Display Pro;
+    color: #463F3C; 
+}
+.enterOTPLabel{
+    font-size:18px ;
+    line-height:24px ;
+    font-weight:500 ;
+    font-family: Neue Haas Grotesk Display Pro;
+    color: #000000CC;    
+}
+.inputOTPSection{
+    display: flex;
+    gap:10px;
+}
+.inputOTPBox {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    text-align: center; 
+}
+
+.inputOTPBox input[type="text"] {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: transparent;
+    font-size: 32px; 
+    outline: none; 
+}
+
+.verifySection{
+    width: 100%;
+    height: 20%;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.verifyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width:70% ;
+    height:60px ;
+    cursor: pointer;
+    background: linear-gradient(to right, #4B4BE3, #5691C8);
+    font-size:18px ;
+    line-height:24px ;
+    font-weight:700 ;
+    font-family: Neue Haas Grotesk Display Pro;
+    color: #FFFFFF;  
+}
+.resendCodeText{
+    font-size:18px ;
+    line-height:24px ;
+    font-weight:400 ;
+    font-family: Neue Haas Grotesk Display Pro;
+    color: #000000CC; 
+}
+.resendCodeText span{
+    font-weight:700 ;
+    cursor: pointer;
+}
+}

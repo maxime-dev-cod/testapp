@@ -1,0 +1,753 @@
+@media screen and (max-width: 600px){
+
+    .signupComponentWrapper{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .signupComponentForm{
+        width: 90%;
+        height: 100%;
+    
+        display: flex;
+        gap:18px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .signupHeroImage{
+      display: none;
+    }
+    
+    .signupHeroImage img{
+        width: 100%;
+        height: 100%;
+    }
+    .gigRivalsLogo{
+        width: 85%;
+
+        display: flex;
+        align-self: flex-start;
+        justify-content: space-between;
+    }
+    .gigRivalsLogoImg img{
+        width: 264px;
+        height: 30px;
+    }
+    .welcomeText{
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        gap:4px;
+        cursor: pointer;
+        align-items: center;
+        font-size:32px ;
+        line-height: 34px;
+        font-weight: 600;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#463F3C;
+    }
+    .welcomeText .leftArrowImg{
+        display: none;
+    }
+    .signupTitle{
+     
+        font-size:24px ;
+        line-height: 32px;
+        font-weight: 700;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000; 
+    }
+    .signupInstruction{
+       
+        font-size:16px ;
+        line-height: 20px;
+        font-weight: 400;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000;   
+    }
+    .signupAlternatives{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4px;
+    }
+    .googleAlternative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        width:50% ;
+        height: 50px;
+        font-size:12px ;
+        line-height: 14px;
+        border-radius: 50px;
+        border: 1px solid #00000080;
+        cursor: pointer;
+    }
+    .signUpTexts{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+         align-items: start;
+         gap:10px;
+    }
+    .emailAlternative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:4px;
+        width:50% ;
+        height: 50px;
+        font-size:12px ;
+        line-height: 14px;
+        border-radius: 50px;
+        border: 1px solid #00000080;
+        cursor: pointer;
+    }
+    .continueWithText{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size:16px ;
+        line-height: 16px;
+        margin-top: 4px;
+        font-weight: 500;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000;    
+    }
+    .signUpEmailLabel{
+  
+        margin-top: 4px;
+        font-size:18px ;
+        line-height: 16px;
+        font-weight: 500;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000; 
+    }
+    .emailInputWrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 95%;
+    }
+    
+    .emailInputBar {
+        width: 95%;
+        height: 60px;
+        padding-left: 40px; /* Adjust as needed to make space for the logo */
+        border-radius: 50px;
+        border: 2px solid #0000004D;
+        background-image: url('../../assets/Images/emailLogo.svg'); /* Replace 'path/to/emailLogo.png' with the actual path to your email logo */
+        background-size: 24px 24px; /* Set the size of the background image */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+        background-position: 10px center; /* Adjust the position of the background image */
+    }
+    
+    .emailInputBar::placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 500;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #888A8B;
+    }
+    .signupButton {
+     
+        box-shadow: #7E8AF8;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        cursor: pointer;
+        font-family: Neue Haas Grotesk Display Pro;
+        padding: 3px ;
+        width: 95%;
+        height: 50px;
+        border-radius: 50px;
+        background: linear-gradient(to right, #4B4BE3, #5691C8);
+      }
+      .signUpLink{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #574F4A;
+      }
+      .signUpLink span{
+        font-weight: 600;
+        background-image: linear-gradient(to right, #4B4BE3, #5691C8);
+        -webkit-background-clip: text; /* For Safari */
+        background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+      }
+    }
+    @media screen and (min-width: 601px) and (max-width: 900px){
+             
+    .signupComponentWrapper{
+        width: 100%;
+        height: 100%;
+        gap:4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .signupComponentForm{
+        width: 70%;
+        height: 100%;
+        margin-left: 10px;
+        display: flex;
+        gap:18px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    /* .signupHeroImage{
+        width: 50%;
+        height: 100%;
+    } */
+    
+    .signupHeroImage img{
+        width: 100%;
+        height: 100%;
+    }
+    .gigRivalsLogo{
+        width: 350px;
+    }
+    .gigRivalsLogo .leftArrowImg{
+        display: none;
+    }
+    .gigRivalsLogoImg img{
+        width: 267px;
+        height: 45px;
+    }
+    .welcomeText{
+        display: flex;
+        width: 350px;
+        gap:4px;
+        cursor: pointer;
+        align-items: center;
+        font-size:24px ;
+        line-height: 28px;
+        font-weight: 600;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#463F3C;
+    }
+    .signUpTexts{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+         align-items: start;
+         gap:10px;
+    }
+    .signupTitle{
+    
+        font-size:24px ;
+        line-height: 28px;
+        font-weight: 700;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000; 
+    }
+    .signupInstruction{
+ 
+        font-size:16px ;
+        line-height: 20px;
+        font-weight: 400;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000;   
+    }
+    .signupAlternatives{
+        width: 350px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4px;
+    }
+    .googleAlternative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
+        width:246px ;
+        height: 46px;
+        font-size:14px ;
+        line-height: 14px;
+        border-radius: 50px;
+        border: 1px solid #00000080;
+        cursor: pointer;
+    }
+    .emailAlternative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:4px;
+        width:246px ;
+        height: 46px;
+        font-size:14px ;
+        line-height: 14px;
+        border-radius: 50px;
+        border: 1px solid #00000080;
+        cursor: pointer;
+    }
+    .continueWithText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        font-size:16px ;
+        line-height: 16px;
+        margin-top: 4px;
+        font-weight: 500;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000;    
+    }
+    .signUpEmailLabel{
+     
+        margin-top: 4px;
+        font-size:16px ;
+        line-height: 16px;
+        font-weight: 500;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000; 
+    }
+    .emailInputWrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+    .emailInputBar {
+        width: 300px;
+        height: 60px;
+        padding-left: 40px; /* Adjust as needed to make space for the logo */
+        border-radius: 50px;
+        border: 2px solid #0000004D;
+        background-image: url('../../assets/Images/emailLogo.svg'); /* Replace 'path/to/emailLogo.png' with the actual path to your email logo */
+        background-size: 24px 24px; /* Set the size of the background image */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+        background-position: 10px center; /* Adjust the position of the background image */
+    }
+    
+    .emailInputBar::placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 500;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #888A8B;
+    }
+    .signupButton {
+     
+        box-shadow: #7E8AF8;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        cursor: pointer;
+        font-family: Neue Haas Grotesk Display Pro;
+        padding: 3px ;
+        width: 350px;
+        height: 50px;
+        border-radius: 50px;
+        background: linear-gradient(to right, #4B4BE3, #5691C8);
+      }
+      .signUpLink{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #574F4A;
+      }
+      .signUpLink span{
+        font-weight: 600;
+        background-image: linear-gradient(to right, #4B4BE3, #5691C8);
+        -webkit-background-clip: text; /* For Safari */
+        background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+      }
+    }
+    @media screen and (min-width: 901px) and (max-width: 1440px) {
+          
+    .signupComponentWrapper{
+        width: 100%;
+        height: 100%;
+        gap:6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .signupComponentForm{
+        width: 70%;
+        height: 100%;
+    
+        display: flex;
+        gap:20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    /* .signupHeroImage{
+        width: 50%;
+        height: 100%;
+    } */
+    
+    .signupHeroImage img{
+        width: 100%;
+        height: 60%;
+    }
+    .gigRivalsLogo{
+        width: 450px;
+    }
+    .gigRivalsLogo .leftArrowImg{
+        display: none;
+    }
+    .gigRivalsLogoImg img{
+        width: 267px;
+        height: 65px;
+    }
+    .welcomeText{
+        display: flex;
+        width: 450px;
+        gap:4px;
+        cursor: pointer;
+        align-items: center;
+        font-size:28px ;
+        line-height: 30px;
+        font-weight: 600;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#463F3C;
+    }
+    .signUpTexts{
+        width: 450px;
+        display: flex;
+        flex-direction: column;
+         align-items: start;
+         gap:10px;
+    }
+    .signupTitle{
+        font-size:28px ;
+        line-height: 44px;
+        font-weight: 700;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000; 
+    }
+    .signupInstruction{
+        font-size:16px ;
+        line-height: 20px;
+        font-weight: 400;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000;   
+    }
+    .signupAlternatives{
+        width: 450px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .googleAlternative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:4px;
+        width:236px ;
+        height: 46px;
+        border-radius: 50px;
+        border: 1px solid #00000080;
+        cursor: pointer;
+    }
+    .emailAlternative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:4px;
+        width:236px ;
+        height: 46px;
+        border-radius: 50px;
+        border: 1px solid #00000080;
+        cursor: pointer;
+    }
+    .continueWithText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 450px;
+        font-size:16px ;
+        line-height: 16px;
+        margin-top: 10px;
+        font-weight: 500;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000;    
+    }
+    .signUpEmailLabel{
+
+        margin-top: 10px;
+        font-size:16px ;
+        line-height: 16px;
+        font-weight: 500;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000; 
+    }
+    .emailInputWrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+    .emailInputBar {
+        width: 410px;
+        height: 60px;
+        padding-left: 40px; /* Adjust as needed to make space for the logo */
+        border-radius: 50px;
+        border: 2px solid #0000004D;
+        background-image: url('../../assets/Images/emailLogo.svg'); /* Replace 'path/to/emailLogo.png' with the actual path to your email logo */
+        background-size: 24px 24px; /* Set the size of the background image */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+        background-position: 10px center; /* Adjust the position of the background image */
+    }
+    
+    .emailInputBar::placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 500;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #888A8B;
+    }
+    .signupButton {
+     
+        box-shadow: #7E8AF8;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        cursor: pointer;
+        font-family: Neue Haas Grotesk Display Pro;
+        padding: 3px ;
+        width: 450px;
+        height: 60px;
+        border-radius: 50px;
+        background: linear-gradient(to right, #4B4BE3, #5691C8);
+      }
+      .signUpLink{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #574F4A;
+      }
+      .signUpLink span{
+        font-weight: 600;
+        background-image: linear-gradient(to right, #4B4BE3, #5691C8);
+        -webkit-background-clip: text; /* For Safari */
+        background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+      }
+    }
+    @media screen and (min-width: 1440px){
+    
+    .signupComponentWrapper{
+        width: 100%;
+        height: 100%;
+       gap:6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .signupComponentForm{
+        width: 50%;
+        height: 90%;
+        display: flex;
+        gap:20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+    
+    .signupHeroImage img{
+        width: 100%;
+        height: 60%;
+    }
+    .gigRivalsLogo{
+        width: 550px;
+    }
+    .gigRivalsLogo .leftArrowImg{
+        display: none;
+    }
+    .gigRivalsLogoImg img{
+        width: 277px;
+        height: 75px;
+    }
+    .welcomeText{
+        display: flex;
+        width: 550px;
+        gap:4px;
+        cursor: pointer;
+        align-items: center;
+        font-size:32px ;
+        line-height: 34px;
+        font-weight: 600;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#463F3C;
+    }
+    .signUpTexts{
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+         align-items: start;
+         gap:10px;
+    }
+    .signupTitle{
+
+        font-size:32px ;
+        line-height: 48px;
+        font-weight: 700;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000; 
+    }
+    .signupInstruction{
+        font-size:18px ;
+        line-height: 24px;
+        font-weight: 400;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000;   
+    }
+    .signupAlternatives{
+        width: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .googleAlternative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:4px;
+        width:266px ;
+        height: 56px;
+        border-radius: 50px;
+        border: 1px solid #00000080;
+        cursor: pointer;
+    }
+    .emailAlternative{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:4px;
+        height: 56px;
+        border-radius: 50px;
+        border: 1px solid #00000080;
+        cursor: pointer;
+    }
+    .continueWithText{
+
+     
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 550px;
+        font-size:16px ;
+        line-height: 16px;
+        margin-top: 10px;
+        font-weight: 500;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000;    
+    }
+    .signUpEmailLabel{
+
+        margin-top: 10px;
+        font-size:18px ;
+        line-height: 16px;
+        font-weight: 500;
+        font-family:Neue Haas Grotesk Display Pro ;
+        color:#000000; 
+    }
+    .emailInputWrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    
+    .emailInputBar {
+        width: 510px;
+        height: 60px;
+        padding-left: 40px; /* Adjust as needed to make space for the logo */
+        border-radius: 50px;
+        border: 2px solid #0000004D;
+        background-image: url('../../assets/Images/emailLogo.svg'); /* Replace 'path/to/emailLogo.png' with the actual path to your email logo */
+        background-size: 24px 24px; /* Set the size of the background image */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+        background-position: 10px center; /* Adjust the position of the background image */
+    }
+    
+    .emailInputBar::placeholder {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 500;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #888A8B;
+    }
+    .signupButton {
+     
+        box-shadow: #7E8AF8;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 18px;
+        cursor: pointer;
+        font-family: Neue Haas Grotesk Display Pro;
+        padding: 3px ;
+        gap:4px;
+        width: 550px;
+        height: 60px;
+        border-radius: 50px;
+        background: linear-gradient(to right, #4B4BE3, #5691C8);
+      }
+      .signUpLink{
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        font-family: Neue Haas Grotesk Display Pro;
+        color: #574F4A;
+      }
+      .signUpLink span{
+        font-weight: 600;
+        background-image: linear-gradient(to right, #4B4BE3, #5691C8);
+        -webkit-background-clip: text; /* For Safari */
+        background-clip: text;
+        color: transparent; 
+        cursor: pointer;
+      }}
